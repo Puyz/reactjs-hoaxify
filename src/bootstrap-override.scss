@@ -1,0 +1,12 @@
+$primary: #9E29EF;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+.btn-delete-link{
+    color: $gray-600;
+    border: none;
+    padding: 0;
+    :hover{
+        color: $danger;
+    }
+}

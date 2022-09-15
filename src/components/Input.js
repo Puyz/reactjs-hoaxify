@@ -1,0 +1,21 @@
+import React from "react";
+
+
+const Input = (props) => {
+    const {label, error, name, onChangeState, type, defaultValue }  = props;
+    let className = 'form-control';
+
+    if (error !== undefined) {
+        className += " is-invalid";
+    }
+
+    return (
+        <div className="form-group">
+            <label>{label}</label>
+            <input className={className} name={name} onChange={onChangeState} type={type} defaultValue={defaultValue}/>
+            <div className="invalid-feedback">{error}</div>
+        </div>
+    );
+}
+
+export default Input;
