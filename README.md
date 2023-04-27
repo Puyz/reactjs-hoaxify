@@ -1,5 +1,5 @@
 # Packages
-    "axios": "^0.27.2",
+  -> "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "i18next": "^21.8.16",
     "node-sass": "^7.0.1",
